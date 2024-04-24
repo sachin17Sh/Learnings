@@ -16,7 +16,7 @@ for (let i = 0; i <= n; i++) {
 let m = 5;
 
 for (let k = m; k >= m; k--) {
-    let star = "";
+    let star = ""
 
     for (let l = 0; l <= k; l++) {
         star += "* ";
@@ -26,18 +26,15 @@ for (let k = m; k >= m; k--) {
 
 }
 
-//right triangles 
-let o = 10;
-for (let x = 1; x <= o; x++) {
-    let st = "";
-    for (let y = 0; y < o - x; y++) {
-        st += " ";
+//left triangles with number 
+let rows = 8;
+
+for (let b = 1; b <= rows; b++) {
+    let pattern = "";
+    for (let c = 1; c <= b; c++) {
+        pattern += c + " ";
     }
-    for (let z = 0; z < x; z++) {
-        st += "*";
-    }
-    console.log(st);
+    console.log(pattern);
 }
 
-
-//right reverse triangles 
+//reverse left triangle 
