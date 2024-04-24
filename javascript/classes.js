@@ -1,9 +1,16 @@
 //CLASS is the program code template to creat an object 
 // class is the blueprint for creating an object 
 //classes are used when we want to use the same template for creating multiple objects 
-//e.g
+//constructor is the method in javascript and automatically invoke by new(while suing new)
+// constructor is used to initialize the object 
+
 
     class Car {
+        constructor(brand, milage){
+            // console.log("Creating new obj"); // it can be used to initialize the value
+            this.brand = brand;
+            this.milage = milage
+        }
         start() {
             console.log("Starting engine");
         }
@@ -16,20 +23,18 @@
             console.log(`Black`);
         }
         
-        setBrand(brand) {
-            this.brand = brand;
-        }
+      
     }
     
-    let fortuner = new Car();
-    fortuner.setBrand("Toyota");
-    console.log("Brand of fortuner:", fortuner.brand);
+    let fortuner = new Car("Toyota",20);
     
-    let gimny = new Car();
-    gimny.setBrand("Maruti Suzuki");
-    console.log("Brand of Gimny:", gimny.brand);
+   console.log(fortuner);
     
-    let thar = new Car();
-    thar.setBrand("Mahindra");
-    console.log("Brand of Thar:", thar.brand);
+    let gimny = new Car("Maruti Suzuki", 20);
+    
+    console.log(gimny);
+    
+    let thar = new Car("Mahindra",18);
+    
+    console.log(fortuner);
     
