@@ -1,8 +1,8 @@
-// const Arr=['a','q','w','e','r','t','y','u','1','i','2','o','p','s','3','4','d','f','g','h','j','k','l','7','z','x','c','v','b','n','m']
-// let b="a";
-// let c = Arr.indexOf(b)
-// // console.log(c)
-// // console.log(Arr[c])
+const Arr=['a','q','w','e','r','t','y','u','1','i','2','o','p','s','3','4','d','f','g','h','j','k','l','7','z','x','c','v','b','n','m']
+let b="a";
+let c = Arr.indexOf(b)
+ console.log(c)
+console.log(Arr[c])
 
 
 
