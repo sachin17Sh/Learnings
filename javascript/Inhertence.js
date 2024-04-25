@@ -25,6 +25,7 @@ class Teamlead extends Employee {
     }
 }
 
+
 class CTO extends Employee{
     work (){
         console.log("Taking care of all things");
@@ -37,3 +38,9 @@ console.log(TL);
 
 let Cto = new CTO ()
 console.log(Cto);
+
+
+//Super keyword is used to call the constructor on parent class into child class 
+//child class is also called derived class 
+
+
