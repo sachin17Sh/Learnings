@@ -1,7 +1,7 @@
-//CLASS is the program code template to creat an object 
+//CLASS is the program code template to create an object 
 // class is the blueprint for creating an object 
 //classes are used when we want to use the same template for creating multiple objects 
-//constructor is the method in javascript and automatically invoke by new(while suing new)
+//constructor is the method in javascript and automatically invoke by new(while using new)
 // constructor is used to initialize the object 
 
 
