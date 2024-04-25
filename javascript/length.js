@@ -10,3 +10,6 @@ while (myary[len] != undefined) {
 
 //or 
 console.log(myary.length);
+
+
+
