@@ -19,7 +19,7 @@ let x= "This is my practice file"
 // let y = x.replace("practice","Javascipt learning")
 // console.log(y);
 
-//converting sting into array
+//converting string into array
 // let y = x.split(",")
 // let z = x.split("")
 // let v = x.split("|")
