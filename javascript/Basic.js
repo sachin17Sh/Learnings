@@ -45,4 +45,10 @@ const a =["apple", "orange","banana", "mango", "pear"]
 let n = "my name is sachin"
 // console.log(n.split());
 
-console.log(typeof(n));
+// console.log(typeof(n));
+
+
+const b = new Date()
+console.log(b);
+const d = new Date("03/25/2015");
+console.log(d);

@@ -30,7 +30,7 @@
     
    console.log(fortuner);
     
-    let gimny = new Car("Maruti Suzuki", 20);
+    let gimny = new Car("Maruti Suzuki", 25);
     
     console.log(gimny);
     
